@@ -1,0 +1,361 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;800;900&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding-bottom: 3px;
+    padding-top: 3px;
+
+}
+
+.main{
+
+    background-color: black;
+    width: 100%;
+    padding-left: 35px;
+    padding-top:px;
+    
+    
+}
+.main ul{
+    margin-right: 500px;
+     
+}
+
+.main ul li{
+    
+
+   padding-left:20px;
+}
+ li, a {
+ font-family:"Noto Sans JP",sans-serif;
+ font-weight: 500;
+ font-size: 11px;
+ text-decoration: none;
+ color: white;
+ margin-right: 19px;
+}
+ header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+
+    cursor: pointer;
+    height: 50px;
+
+ }
+
+ .nav_links{
+
+    
+    list-style: none;
+    
+ }
+
+ .nav_links li {
+   
+     display: inline-block;
+     padding-right: 0px;
+     padding-left: 0px;
+}
+
+
+.pic{
+    width: 100%;
+    height: 50%;
+}
+
+
+.newproducts {
+    color:black;
+    font-family:  'Noto Sans JP', sans-serif;
+
+    font-weight:800;
+    font-size: 29px;
+    
+    position: absolute;
+    bottom: -4%;
+    left: 45%;
+
+}
+
+.view-button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 285px;
+    border-radius: 2px;
+    cursor: pointer;
+    position: absolute;
+    bottom: -15%;
+    left: 42.5%;
+
+    
+}
+.subscribe-button:hover{
+    opacity: 0.5;
+    
+
+}
+
+.topics{
+    color:black;
+    font-family:  'Noto Sans JP', sans-serif;
+
+    font-weight:800;
+    font-size: 29px;
+    
+    position: absolute;
+    bottom: -25%;
+    left: 5%;
+
+}
+
+
+
+.topic{
+
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    font-size: 16px;
+    padding-bottom:15px;
+    position: absolute;
+    bottom: -65%;
+    left: 5%;
+}
+
+.one,.two,.three,.four,.five{
+
+    width: 290px;
+    border:10px solid white;
+    height: 290px;
+    
+    padding:px;
+    margin:px;
+    
+    font-size: 12px;
+    line-height:2;
+    
+    }
+
+
+.pic1{
+
+    width: 282px;
+    height: 282px;
+    padding-top: 0%;
+    
+}
+.pic1:hover{
+
+    transform: scale(1.15);
+    cursor: pointer;
+    
+}
+
+
+
+
+
+.topic2{
+
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    font-size: 16px;
+    padding-bottom:15px;
+    
+    position: absolute;
+    bottom: -125%;
+    left: 0%;
+}
+
+.first,.second,.third,.fourth{
+
+    width: 374px;
+    height: 376px;
+    
+    padding-top: 50px;
+    margin:px;
+    
+    
+    
+    
+}
+
+.img{
+
+
+    width: 376px;
+    height: 376px;
+}
+.img:hover{
+
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.topic2b{
+    
+    margin-top:30px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 376px 376px 376px 376px;
+    height: 55px;
+    position: absolute;
+    bottom: -130%;
+        left: 1%;
+}
+
+.topic2bc{
+background-color: black;
+color: white;
+font-family:  'Noto Sans JP', sans-serif;
+font-size: 12px;
+padding: 15px;
+}
+
+
+
+.topic3{
+
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    font-size: 16px;
+    padding-bottom:15px;
+    
+    position: absolute;
+    bottom: -185%;
+    left: 0%;
+}
+
+.first,.second,.third,.fourth{
+
+    width: 376px;
+    height: 376px;
+    
+    
+    
+    
+}
+
+.img{
+
+
+    width: 376px;
+    height: 376px;
+}
+.img:hover{
+
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.topic3b{
+    
+    margin-top:30px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 376px 376px 376px 376px;
+    height: 55px;
+    position: absolute;
+    bottom: -190%;
+        left: 1%;
+}
+
+.topic3bc{
+background-color: black;
+color: white;
+font-family:  'Noto Sans JP', sans-serif;
+font-size: 12px;
+padding: 15px;
+}
+
+
+
+
+
+.footer1{
+
+    background-color: black;
+    width: 100%;
+    padding-left: 220px;
+    padding-top:30px;
+    position: absolute;
+    bottom: -245%;
+    height: 340px;
+    display: flex;
+    
+    
+    
+    
+    
+    
+    
+}
+
+.footer-1{
+
+    list-style: none;
+    
+    
+    
+    
+    
+    
+} 
+
+
+.product1{
+
+    margin-right: 155px;
+    
+    
+        
+}
+.product2{
+
+    margin-right: 155px;
+     
+    
+}
+
+.footericon{
+    background-color:black;
+    width:100%;
+    height: 100px;
+    position: relative;
+    bottom: -2068px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 20px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
